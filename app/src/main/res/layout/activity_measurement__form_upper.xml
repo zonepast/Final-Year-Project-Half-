@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_measurement__form"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.femmy.finalretrofit.Measurement_Form_Upper">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.femmy.measurementform.MainActivity"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:text="Neck Size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_neck"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Measure around your neck. Adjust the measuring tape to your preferred looseness. It is very important to introduce a finger between your body and the tape.
+ "/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/neck"
+            android:id="@+id/img_neck" />
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:hint="Enter Inches"
+            android:id="@+id/num_neck"
+            android:layout_marginBottom="20dp"/>
+
+        <!--shoulder-->
+
+        <TextView
+            android:text="Shoulder Width"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_shoulder"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Measure between your shoulders (A) (where the sleeve starts). The measuring tape should be close to the lowest part of the shirt's neck (B). "/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/shoulder_width"
+            android:id="@+id/img_shoulder" />
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:hint="Enter Inches"
+            android:id="@+id/num_shoulder" />
+
+        <!-- Sleeve length..-->
+
+        <TextView
+            android:text="Sleeve Length"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_sleeve_length"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Measure from the shoulder's seam (A) all along the arm to the thumb bone (B). "/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/sleeve_length"
+            android:id="@+id/img_sleeve_length"
+            android:src="@drawable/sleeve_length"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:hint="Enter Inches"
+            android:id="@+id/num_sleeve_length" />
+
+        <!--wrist size -->
+
+        <TextView
+            android:text="Wrist Size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_wrist_size"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Measure around the wrist " />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/sleeve_length"
+            android:id="@+id/img_wrist_size"
+            android:src="@drawable/wrist_size"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:hint="Enter Inches"
+            android:id="@+id/num_wrist_size" />
+
+        <!--waist point -->
+
+        <TextView
+            android:text="Waist Point"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_waist_point"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Measure from the highest part of your shoulder (A) (next to the shirt collar) to the breast point (the most outstanding part of your breast) (B). " />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/sleeve_length"
+            android:id="@+id/img_waist_point"
+            android:src="@drawable/waist_point"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:hint="Enter Inches"
+            android:id="@+id/num_waist_point" />
+
+        <!-- Breast Point-->
+        <TextView
+            android:text="Breast Point"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_breast_point"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Measure from the highest part of your shoulder (A) (next to the shirt collar) to the breast point (the most outstanding part of your breast) (B). " />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/sleeve_length"
+            android:id="@+id/img_breast_point"
+            android:src="@drawable/breast_point"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:hint="Enter Inches"
+            android:id="@+id/num_breast_point" />
+
+        <!-- Bust-->
+
+        <TextView
+            android:text="Bust"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:id="@+id/tv_bust"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Measure from one armpit to the other across your front side "/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/sleeve_length"
+            android:id="@+id/img_bust"
+            android:src="@drawable/bust"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:hint="Enter Inches"
+            android:id="@+id/num_bust" />
+
+        <!-- Chest Size-->
+
+        <TextView
+            android:text="Chest Size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:id="@+id/tv_chest_size"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Measure around the widest part of your chest. Let loose so that you can put a finger between your body and the tape. Make sure that the tape is at an even height all the way around.  " />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/sleeve_length"
+            android:id="@+id/img_chest_size"
+            android:src="@drawable/chest_size"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:hint="Enter Inches"
+            android:id="@+id/chest_size" />
+
+        <!--Stomach Size -->
+        <TextView
+            android:text="Stomach Size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:id="@+id/tv_stomach_size"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Measure around the widest part of your abdomen. Let loose so that you can put a finger between your body and the tape, keeping the tape parallel to the floor.  "/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/sleeve_length"
+            android:id="@+id/img_stomach_size"
+            android:src="@drawable/stomach_size"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:hint="Enter Inches"
+            android:id="@+id/stomach_size" />
+
+        <!--Waist Size -->
+        <TextView
+            android:text="Waist Size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:id="@+id/tv_waist_size"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Measure around your waist, in your underwear, at the point where your trousers would normally sit. Keep one finger between the tape and your body. Imagine that the tape measure is the trousers you will be wearing and take the size that you desire.  "/>
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/sleeve_length"
+            android:id="@+id/img_waist_size"
+            android:src="@drawable/waist_size"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:hint="Enter Inches"
+            android:id="@+id/waist_size" />
+
+        <!--Jacket Length -->
+
+        <TextView
+            android:text="Jacket Length"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:id="@+id/tv_jacket_length"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Measure from the highest part of your shoulder (A) (next to the shirt collar) to the desired measure (B) normally you should measure to the tip of your thumb (B).
+Important : The measuring tape must pass through the center chest.  "/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/sleeve_length"
+            android:id="@+id/img_jacket_length"
+            android:src="@drawable/jacket_length"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:hint="Enter Inches"
+            android:id="@+id/jacket_length" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"
+            android:id="@+id/bt_submit"/>
+    </LinearLayout>
+</ScrollView>
+    </LinearLayout>

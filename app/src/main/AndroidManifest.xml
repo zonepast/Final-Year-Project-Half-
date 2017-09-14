@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.femmy.finalretrofit">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- Splash Screen -->
+        <activity
+            android:name=".Splash"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Register" />
+        <activity android:name=".Dashboard" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".Select_Front" />
+        <activity android:name=".Select_Back" />
+        <activity android:name=".Select_Sleeves" />
+        <activity android:name=".Select_Bottom" />
+        <activity android:name=".Select_Hemline" />
+        <activity android:name=".Select_Extras" />
+        <activity android:name=".Measurement_Form_Upper" />
+        <activity android:name=".Measurement_Form_Lower"></activity>
+    </application>
+
+</manifest>

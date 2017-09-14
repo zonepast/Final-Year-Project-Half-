@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_measurement__form__lower"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.femmy.finalretrofit.Measurement_Form_Lower">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/activity_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            tools:context="com.example.femmy.measurementformlower.MainActivity"
+            android:orientation="vertical">
+
+            <!--Hips Size -->
+
+            <TextView
+                android:text="Hips Size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_hips_size"
+                android:textSize="20dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:text="Stand with your heels together, and measure around the fullest part of your hips, keeping the tape parallel to the floor. "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv1_hips_size"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/hips_size"
+                android:id="@+id/img_hips_size"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/inches"
+                android:hint="Enter Inches"/>
+
+            <!-- crotch length-->
+
+            <TextView
+                android:text="Crotch Length"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_crotch_length"
+                android:textSize="20dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:text=" Hold the tape at the center back of your waist (A). Run the tape between your legs, pulling comfortably at the crotch, and up to your natural waist in front (B). Both (A) and (B) at the same level where you would wear your pants.
+If you have any doubts compare this measure with pants that fit you well. "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv1_crotch_length"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/crotch_length"
+                android:id="@+id/img_crotch_length"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/num_crotch_length"
+                android:hint="Enter Inches"/>
+
+            <!--Thigh Size -->
+
+            <TextView
+                android:text="Thigh Size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_thigh_size"
+                android:textSize="20dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:text=" Measure around the widest part of your thigh. Let loose so that you can put a finger between your body and the tape. "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv1_thigh_size"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/crotch_length"
+                android:id="@+id/img_thigh_size"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/num_thigh_size"
+                android:hint="Enter Inches"/>
+
+            <!--knee -->
+
+            <TextView
+                android:text="Knee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_knee"
+                android:textSize="20dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:text="Measure around your knee. Remember that it is an optional measurement.  "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv1_knee"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/knee"
+                android:id="@+id/img_knee"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/num_knee"
+                android:hint="Enter Inches"/>
+
+            <!-- pants length-->
+
+            <TextView
+                android:text="Pants Length"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_pants_length"
+                android:textSize="20dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:text="Measure around your knee. Remember that it is an optional measurement.  "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv1_pants_length"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pant_length"
+                android:id="@+id/img_pant_length"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/num"
+                android:hint="Enter Inches"/>
+
+            <!-- skirt length-->
+
+            <TextView
+                android:text="Skirt Length"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_skirt_length"
+                android:textSize="20dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:text="Measure from the waist (where you would wear your skirt) (A) to the desired length for the skirt(B).  "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv1_skirt_length"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/skirt_length"
+                android:id="@+id/img_skirt_length"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/num_skirt_length"
+                android:hint="Enter Inches"/>
+
+            <!-- trousers bottom length-->
+
+            <TextView
+                android:text="Trousers Bottom - Width"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_bottom_width"
+                android:textSize="20dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:text=" Measure around the width of your trousers bottom. measure the circumference over your trousers."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv1_bottom_width"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/trousers_bottom_width"
+                android:id="@+id/img_trousers_bottom_width"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/num_bottom_width"
+                android:hint="Enter Inches"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SUBMIT"
+                android:id="@+id/bt_submit"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
